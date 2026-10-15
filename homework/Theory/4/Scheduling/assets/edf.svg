@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="236" viewBox="0 0 1280 236" role="img" aria-labelledby="title desc">
+<title id="title">Preemptive EDF: execution from 0 to 60 ms</title>
+<desc id="desc">CPU: 0-4 A1, 4-10 B1, 10-14 A2, 14-18 B1, 18-20 C1, 20-24 A3, 24-30 C1, 30-34 A4, 34-44 B2, 44-48 A5, 48-50 B3, 50-54 A6, 54-60 B3</desc>
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Arial, Segoe UI, sans-serif" fill="#0f172a">
+<text x="28" y="34" font-size="22" font-weight="700">Preemptive EDF: execution from 0 to 60 ms</text>
+<text x="28" y="58" font-size="14" fill="#475569">Each bar spans its actual execution interval. Grey bars show idle time.</text>
+<line x1="124.000" y1="76" x2="124.000" y2="130" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="197.333" y1="76" x2="197.333" y2="130" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="307.333" y1="76" x2="307.333" y2="130" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="380.667" y1="76" x2="380.667" y2="130" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="454.000" y1="76" x2="454.000" y2="130" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="490.667" y1="76" x2="490.667" y2="130" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="564.000" y1="76" x2="564.000" y2="130" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="674.000" y1="76" x2="674.000" y2="130" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="747.333" y1="76" x2="747.333" y2="130" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="930.667" y1="76" x2="930.667" y2="130" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="1004.000" y1="76" x2="1004.000" y2="130" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="1040.667" y1="76" x2="1040.667" y2="130" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="1114.000" y1="76" x2="1114.000" y2="130" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="1224.000" y1="76" x2="1224.000" y2="130" stroke="#e2e8f0" stroke-width="1"/>
+<text x="106" y="113" text-anchor="end" font-size="17" font-weight="700">CPU</text>
+<rect x="124.000" y="84" width="73.333" height="46" fill="#dbeafe" stroke="#2563eb" stroke-width="1.4"/>
+<text x="160.667" y="113" text-anchor="middle" font-size="16" font-weight="600">A1</text>
+<rect x="197.333" y="84" width="110.000" height="46" fill="#dcfce7" stroke="#16a34a" stroke-width="1.4"/>
+<text x="252.333" y="113" text-anchor="middle" font-size="16" font-weight="600">B1</text>
+<rect x="307.333" y="84" width="73.333" height="46" fill="#dbeafe" stroke="#2563eb" stroke-width="1.4"/>
+<text x="344.000" y="113" text-anchor="middle" font-size="16" font-weight="600">A2</text>
+<rect x="380.667" y="84" width="73.333" height="46" fill="#dcfce7" stroke="#16a34a" stroke-width="1.4"/>
+<text x="417.333" y="113" text-anchor="middle" font-size="16" font-weight="600">B1</text>
+<rect x="454.000" y="84" width="36.667" height="46" fill="#ffedd5" stroke="#ea580c" stroke-width="1.4"/>
+<text x="472.333" y="113" text-anchor="middle" font-size="16" font-weight="600">C1</text>
+<rect x="490.667" y="84" width="73.333" height="46" fill="#dbeafe" stroke="#2563eb" stroke-width="1.4"/>
+<text x="527.333" y="113" text-anchor="middle" font-size="16" font-weight="600">A3</text>
+<rect x="564.000" y="84" width="110.000" height="46" fill="#ffedd5" stroke="#ea580c" stroke-width="1.4"/>
+<text x="619.000" y="113" text-anchor="middle" font-size="16" font-weight="600">C1</text>
+<rect x="674.000" y="84" width="73.333" height="46" fill="#dbeafe" stroke="#2563eb" stroke-width="1.4"/>
+<text x="710.667" y="113" text-anchor="middle" font-size="16" font-weight="600">A4</text>
+<rect x="747.333" y="84" width="183.333" height="46" fill="#dcfce7" stroke="#16a34a" stroke-width="1.4"/>
+<text x="839.000" y="113" text-anchor="middle" font-size="16" font-weight="600">B2</text>
+<rect x="930.667" y="84" width="73.333" height="46" fill="#dbeafe" stroke="#2563eb" stroke-width="1.4"/>
+<text x="967.333" y="113" text-anchor="middle" font-size="16" font-weight="600">A5</text>
+<rect x="1004.000" y="84" width="36.667" height="46" fill="#dcfce7" stroke="#16a34a" stroke-width="1.4"/>
+<text x="1022.333" y="113" text-anchor="middle" font-size="16" font-weight="600">B3</text>
+<rect x="1040.667" y="84" width="73.333" height="46" fill="#dbeafe" stroke="#2563eb" stroke-width="1.4"/>
+<text x="1077.333" y="113" text-anchor="middle" font-size="16" font-weight="600">A6</text>
+<rect x="1114.000" y="84" width="110.000" height="46" fill="#dcfce7" stroke="#16a34a" stroke-width="1.4"/>
+<text x="1169.000" y="113" text-anchor="middle" font-size="16" font-weight="600">B3</text>
+<line x1="124.000" y1="130" x2="124.000" y2="137" stroke="#64748b"/>
+<text x="124.000" y="155" text-anchor="middle" font-size="14" fill="#334155">0</text>
+<line x1="197.333" y1="130" x2="197.333" y2="137" stroke="#64748b"/>
+<text x="197.333" y="155" text-anchor="middle" font-size="14" fill="#334155">4</text>
+<line x1="307.333" y1="130" x2="307.333" y2="137" stroke="#64748b"/>
+<text x="307.333" y="155" text-anchor="middle" font-size="14" fill="#334155">10</text>
+<line x1="380.667" y1="130" x2="380.667" y2="137" stroke="#64748b"/>
+<text x="380.667" y="155" text-anchor="middle" font-size="14" fill="#334155">14</text>
+<line x1="454.000" y1="130" x2="454.000" y2="137" stroke="#64748b"/>
+<text x="454.000" y="155" text-anchor="middle" font-size="14" fill="#334155">18</text>
+<line x1="490.667" y1="130" x2="490.667" y2="137" stroke="#64748b"/>
+<text x="490.667" y="155" text-anchor="middle" font-size="14" fill="#334155">20</text>
+<line x1="564.000" y1="130" x2="564.000" y2="137" stroke="#64748b"/>
+<text x="564.000" y="155" text-anchor="middle" font-size="14" fill="#334155">24</text>
+<line x1="674.000" y1="130" x2="674.000" y2="137" stroke="#64748b"/>
+<text x="674.000" y="155" text-anchor="middle" font-size="14" fill="#334155">30</text>
+<line x1="747.333" y1="130" x2="747.333" y2="137" stroke="#64748b"/>
+<text x="747.333" y="155" text-anchor="middle" font-size="14" fill="#334155">34</text>
+<line x1="930.667" y1="130" x2="930.667" y2="137" stroke="#64748b"/>
+<text x="930.667" y="155" text-anchor="middle" font-size="14" fill="#334155">44</text>
+<line x1="1004.000" y1="130" x2="1004.000" y2="137" stroke="#64748b"/>
+<text x="1004.000" y="155" text-anchor="middle" font-size="14" fill="#334155">48</text>
+<line x1="1040.667" y1="130" x2="1040.667" y2="137" stroke="#64748b"/>
+<text x="1040.667" y="155" text-anchor="middle" font-size="14" fill="#334155">50</text>
+<line x1="1114.000" y1="130" x2="1114.000" y2="137" stroke="#64748b"/>
+<text x="1114.000" y="155" text-anchor="middle" font-size="14" fill="#334155">54</text>
+<line x1="1224.000" y1="130" x2="1224.000" y2="137" stroke="#64748b"/>
+<text x="1224.000" y="155" text-anchor="middle" font-size="14" fill="#334155">60</text>
+<rect x="124" y="202" width="16" height="16" rx="2" fill="#dbeafe" stroke="#2563eb"/>
+<text x="148" y="215" font-size="14" fill="#475569">A</text>
+<rect x="216" y="202" width="16" height="16" rx="2" fill="#dcfce7" stroke="#16a34a"/>
+<text x="240" y="215" font-size="14" fill="#475569">B</text>
+<rect x="308" y="202" width="16" height="16" rx="2" fill="#ffedd5" stroke="#ea580c"/>
+<text x="332" y="215" font-size="14" fill="#475569">C</text>
+<text x="1224" y="215" text-anchor="end" font-size="14" fill="#475569">Time (ms)</text>
+</g>
+</svg>

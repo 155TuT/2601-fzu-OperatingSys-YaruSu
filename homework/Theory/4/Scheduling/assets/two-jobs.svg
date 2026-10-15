@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="348" viewBox="0 0 1280 348" role="img" aria-labelledby="title desc">
+<title id="title">Two jobs: minimum completion time of 260 ms</title>
+<desc id="desc">CPU: 0-60 P1, 60-180 P2, 180-200 P1, 200-220 Idle, 220-260 P2; I/O: 0-60 Idle, 60-140 P1, 140-180 Idle, 180-220 P2, 220-260 Idle</desc>
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Arial, Segoe UI, sans-serif" fill="#0f172a">
+<text x="28" y="34" font-size="22" font-weight="700">Two jobs: minimum completion time of 260 ms</text>
+<text x="28" y="58" font-size="14" fill="#475569">Each bar spans its actual execution interval. Grey bars show idle time.</text>
+<line x1="124.000" y1="76" x2="124.000" y2="242" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="377.846" y1="76" x2="377.846" y2="242" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="716.308" y1="76" x2="716.308" y2="242" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="885.538" y1="76" x2="885.538" y2="242" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="970.154" y1="76" x2="970.154" y2="242" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="1054.769" y1="76" x2="1054.769" y2="242" stroke="#e2e8f0" stroke-width="1"/>
+<line x1="1224.000" y1="76" x2="1224.000" y2="242" stroke="#e2e8f0" stroke-width="1"/>
+<text x="106" y="113" text-anchor="end" font-size="17" font-weight="700">CPU</text>
+<rect x="124.000" y="84" width="253.846" height="46" fill="#dbeafe" stroke="#2563eb" stroke-width="1.4"/>
+<text x="250.923" y="113" text-anchor="middle" font-size="16" font-weight="600">P1</text>
+<rect x="377.846" y="84" width="507.692" height="46" fill="#dcfce7" stroke="#16a34a" stroke-width="1.4"/>
+<text x="631.692" y="113" text-anchor="middle" font-size="16" font-weight="600">P2</text>
+<rect x="885.538" y="84" width="84.615" height="46" fill="#dbeafe" stroke="#2563eb" stroke-width="1.4"/>
+<text x="927.846" y="113" text-anchor="middle" font-size="16" font-weight="600">P1</text>
+<rect x="970.154" y="84" width="84.615" height="46" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.4"/>
+<text x="1012.462" y="113" text-anchor="middle" font-size="16" font-weight="600">Idle</text>
+<rect x="1054.769" y="84" width="169.231" height="46" fill="#dcfce7" stroke="#16a34a" stroke-width="1.4"/>
+<text x="1139.385" y="113" text-anchor="middle" font-size="16" font-weight="600">P2</text>
+<line x1="124.000" y1="130" x2="124.000" y2="137" stroke="#64748b"/>
+<text x="124.000" y="155" text-anchor="middle" font-size="14" fill="#334155">0</text>
+<line x1="377.846" y1="130" x2="377.846" y2="137" stroke="#64748b"/>
+<text x="377.846" y="155" text-anchor="middle" font-size="14" fill="#334155">60</text>
+<line x1="885.538" y1="130" x2="885.538" y2="137" stroke="#64748b"/>
+<text x="885.538" y="155" text-anchor="middle" font-size="14" fill="#334155">180</text>
+<line x1="970.154" y1="130" x2="970.154" y2="137" stroke="#64748b"/>
+<text x="970.154" y="155" text-anchor="middle" font-size="14" fill="#334155">200</text>
+<line x1="1054.769" y1="130" x2="1054.769" y2="137" stroke="#64748b"/>
+<text x="1054.769" y="155" text-anchor="middle" font-size="14" fill="#334155">220</text>
+<line x1="1224.000" y1="130" x2="1224.000" y2="137" stroke="#64748b"/>
+<text x="1224.000" y="155" text-anchor="middle" font-size="14" fill="#334155">260</text>
+<text x="106" y="225" text-anchor="end" font-size="17" font-weight="700">I/O</text>
+<rect x="124.000" y="196" width="253.846" height="46" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.4"/>
+<text x="250.923" y="225" text-anchor="middle" font-size="16" font-weight="600">Idle</text>
+<rect x="377.846" y="196" width="338.462" height="46" fill="#dbeafe" stroke="#2563eb" stroke-width="1.4"/>
+<text x="547.077" y="225" text-anchor="middle" font-size="16" font-weight="600">P1</text>
+<rect x="716.308" y="196" width="169.231" height="46" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.4"/>
+<text x="800.923" y="225" text-anchor="middle" font-size="16" font-weight="600">Idle</text>
+<rect x="885.538" y="196" width="169.231" height="46" fill="#dcfce7" stroke="#16a34a" stroke-width="1.4"/>
+<text x="970.154" y="225" text-anchor="middle" font-size="16" font-weight="600">P2</text>
+<rect x="1054.769" y="196" width="169.231" height="46" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.4"/>
+<text x="1139.385" y="225" text-anchor="middle" font-size="16" font-weight="600">Idle</text>
+<line x1="124.000" y1="242" x2="124.000" y2="249" stroke="#64748b"/>
+<text x="124.000" y="267" text-anchor="middle" font-size="14" fill="#334155">0</text>
+<line x1="377.846" y1="242" x2="377.846" y2="249" stroke="#64748b"/>
+<text x="377.846" y="267" text-anchor="middle" font-size="14" fill="#334155">60</text>
+<line x1="716.308" y1="242" x2="716.308" y2="249" stroke="#64748b"/>
+<text x="716.308" y="267" text-anchor="middle" font-size="14" fill="#334155">140</text>
+<line x1="885.538" y1="242" x2="885.538" y2="249" stroke="#64748b"/>
+<text x="885.538" y="267" text-anchor="middle" font-size="14" fill="#334155">180</text>
+<line x1="1054.769" y1="242" x2="1054.769" y2="249" stroke="#64748b"/>
+<text x="1054.769" y="267" text-anchor="middle" font-size="14" fill="#334155">220</text>
+<line x1="1224.000" y1="242" x2="1224.000" y2="249" stroke="#64748b"/>
+<text x="1224.000" y="267" text-anchor="middle" font-size="14" fill="#334155">260</text>
+<rect x="124" y="314" width="16" height="16" rx="2" fill="#dbeafe" stroke="#2563eb"/>
+<text x="148" y="327" font-size="14" fill="#475569">P1</text>
+<rect x="216" y="314" width="16" height="16" rx="2" fill="#dcfce7" stroke="#16a34a"/>
+<text x="240" y="327" font-size="14" fill="#475569">P2</text>
+<rect x="308" y="314" width="16" height="16" rx="2" fill="#f1f5f9" stroke="#cbd5e1"/>
+<text x="332" y="327" font-size="14" fill="#475569">Idle</text>
+<text x="1224" y="327" text-anchor="end" font-size="14" fill="#475569">Time (ms)</text>
+</g>
+</svg>
