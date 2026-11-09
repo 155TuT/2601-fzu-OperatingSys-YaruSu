@@ -1,0 +1,34 @@
+$ ls -l > list1.txt
+[exit 0]
+$ LC_ALL=C ls -lA --time-style=+%m-%d / | awk '$6 == "04-16"' > list2.txt
+[exit 0]
+$ cat list1.txt list2.txt > list.txt
+[exit 0]
+$ cat list1.txt
+total 48
+drwxr-xr-x 5 ovo155 ovo155 4096 Sep 12 03:15 Mycode
+drwxr-xr-x 2 ovo155 ovo155 4096 Nov 10 02:12 bin
+-rw-r--r-- 1 ovo155 ovo155    3 Nov 10 02:13 custom result.txt
+-rw-r--r-- 1 ovo155 ovo155   42 Nov 10 02:12 error.log
+drwxr-xr-x 4 ovo155 ovo155 4096 Apr 28  2026 go
+-rw-r--r-- 1 ovo155 ovo155 2517 Nov 10 02:12 list.txt
+-rw-r--r-- 1 ovo155 ovo155    0 Nov 10 02:14 list1.txt
+-rw-r--r-- 1 ovo155 ovo155    0 Nov 10 02:12 list2.txt
+drwxr-xr-x 3 ovo155 ovo155 4096 May 17 20:20 logs
+drwxr-xr-x 2 ovo155 ovo155 4096 Nov 10 02:12 restore-ex1
+-rw-r--r-- 1 ovo155 ovo155    3 Nov 10 02:12 sum.r
+-rwxr-xr-x 1 ovo155 ovo155 1584 Nov 10 02:12 sum.sh
+-rwxr-xr-x 1 ovo155 ovo155 3974 Nov 10 02:12 sum.tar.gz
+-rwxr-xr-x 1 ovo155 ovo155  231 Nov 10 02:03 sum_named.sh
+[exit 0]
+$ cat list2.txt
+[exit 0]
+$ wc -l list1.txt list2.txt list.txt
+  15 list1.txt
+   0 list2.txt
+  15 list.txt
+  30 total
+[exit 0]
+$ cmp list.txt <(cat list1.txt list2.txt) && echo 'Concatenation verified.'
+Concatenation verified.
+[exit 0]

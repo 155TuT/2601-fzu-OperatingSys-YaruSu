@@ -1,0 +1,113 @@
+$ pwd
+/home/ovo155
+[exit 0]
+$ uname -m
+x86_64
+[exit 0]
+$ ls -C /
+Docker		    wslDeKmkf  wslJHFaAa  wslONKdNB  wsleikgFE	wslkMJMJo
+bin		    wslDfJNDI  wslJHFdEp  wslOPKJHB  wslejPHGh	wslkPOmpb
+bin.usr-is-merged   wslDikibn  wslJJpehM  wslObmEBg  wslejnOCD	wslkbdMAg
+boot		    wslDjkpNo  wslJKoKei  wslOcGLpb  wslekLGFC	wslkdjmDI
+dev		    wslDleDCb  wslJLjGKh  wslOfIJPC  wslemcAdG	wslkeMCBD
+etc		    wslDmpoDC  wslJPgfgN  wslOjLJea  wsleoKpCh	wslkfLFKI
+home		    wslDnNmjF  wslJaOkpP  wslOmPbFE  wslepCCNC	wslknlLfE
+init		    wslDoOiNB  wslJckaiP  wslOpEndc  wslepfIMn	wslkpoGJM
+lib		    wslEAOoEg  wslJdaFOA  wslOpOCjk  wslfBKGnj	wslkpoKAh
+lib.usr-is-merged   wslEBanCo  wslJfNFNF  wslPEfGlH  wslfCEfKh	wsllDgAij
+lib64		    wslEDAioP  wslJgkbAD  wslPEnoNp  wslfIjoDB	wsllEcJnF
+lost+found	    wslEIjFPA  wslJmGePG  wslPIAeai  wslfMmbLJ	wsllEfGhj
+media		    wslEJcaGh  wslJoAkhj  wslPJBEeh  wslfNmBpn	wsllFAlNC
+mnt		    wslEKnhEN  wslJoJGCA  wslPJFHCb  wslfaomAc	wsllKANoP
+opt		    wslELaBGP  wslJpMcHn  wslPJaJEd  wslfbHMFF	wsllKpGaN
+proc		    wslEPGbGk  wslKAKmjO  wslPKkiDC  wslffEdpN	wsllNjbeE
+root		    wslEeOkci  wslKBMhIB  wslPONPnb  wslfgaCFL	wsllOHeHB
+run		    wslEfaCdO  wslKCbkHF  wslPbBDLo  wslfhMMMO	wsllcLEFC
+sbin		    wslEkmLNF  wslKCdOGk  wslPdfNmH  wslfiDkJO	wsllgClik
+sbin.usr-is-merged  wslElOApm  wslKDpGmB  wslPdneFE  wslfnFCpp	wsllhGdoc
+snap		    wslEmCPoo  wslKEfDlF  wslPfbokb  wslgEDDMF	wsllhaEei
+srv		    wslEmifjp  wslKGBDEI  wslPgIbbn  wslgHLNKL	wslljkkKh
+sys		    wslFBdBej  wslKGCNJC  wslaBObiB  wslgJcNAk	wsllkHBLb
+tmp		    wslFBmMJb  wslKIEgnm  wslaCfKOJ  wslgJpfpi	wsllmdBkg
+usr		    wslFDEEaG  wslKKpgAa  wslaJpnAD  wslgMnMnp	wsllnACDB
+var		    wslFDPpJf  wslKMDMdO  wslaMKOgO  wslgNbogB	wsllpJmhj
+wslABpjmB	    wslFHLhbi  wslKMgLOn  wslaMjGnp  wslgOHLAH	wsllpNFkH
+wslADnFgH	    wslFHncPo  wslKMpIPJ  wslaNlDgH  wslgOdjAD	wslmDgmFM
+wslAGGFPJ	    wslFIDKiB  wslKNOIoC  wslaOlLga  wslgaBEnM	wslmGaMAJ
+wslAJGFcG	    wslFKhOJh  wslKPFgKl  wslaOmJCb  wslgapGiA	wslmKbpbm
+wslAJdIKg	    wslFPkJMO  wslKcEGip  wslaPafMb  wslgbfMFg	wslmdHLnb
+wslAKKILM	    wslFboKeh  wslKcIHIB  wslafomef  wslgdaKfJ	wslmfGeeG
+wslAMCakp	    wslFfigLf  wslKeFNFH  wslaoEaEk  wslgdgnNp	wslmgbjho
+wslANkpBB	    wslFhLccJ  wslKmclbO  wslapgMBm  wslggnoHE	wslmknpbB
+wslAbmDio	    wslFhMePp  wslKpmabL  wslbBcmbh  wslghkiBB	wslmlKmjM
+wslAeCceG	    wslFiibaP  wslLADnhM  wslbHCDLj  wslgimBja	wslmmGbEL
+wslAegggo	    wslFilCBg  wslLAFhhO  wslbHemPn  wslgjbNEa	wslmoGdHi
+wslAgLgKo	    wslFnAohE  wslLCOKCA  wslbHibgj  wslgpnDiE	wslmpCaJn
+wslAgoBJh	    wslFoFaFf  wslLDaLPC  wslbIECbn  wslhALjmH	wslmpnJHk
+wslAiAAom	    wslFplAbJ  wslLIhOei  wslbMOlmD  wslhALoLi	wslnADkKB
+wslAiHOIi	    wslGDijJn  wslLJimLl  wslbPHklp  wslhBgPpB	wslnAEpjO
+wslAijFLM	    wslGEENei  wslLLOMcf  wslbbFomo  wslhBhmkB	wslnFiJoi
+wslAildoe	    wslGHmckJ  wslLMlDjO  wslbdDeHB  wslhDcmFp	wslnGkkea
+wslAinCIB	    wslGONGDh  wslLNJAaP  wslbePmfE  wslhIpBeE	wslnNccJj
+wslAknaJh	    wslGcdoIf  wslLeEmmb  wslbffJJh  wslhLJpPo	wslnPOAmJ
+wslAoMjCm	    wslGdljgI  wslLjMoan  wslbflIdG  wslhNJLhj	wslncgJfo
+wslApEbGB	    wslGgkCDh  wslLnenHO  wslbgOdmb  wslhOcedJ	wslneBeJn
+wslBBGGhM	    wslGiJEPC  wslMADmMC  wslbgpBIh  wslhaojbG	wslnecgIj
+wslBDHfBJ	    wslGklEfM  wslMBNOFO  wslbhaDab  wslhdgLJl	wslnfNBNJ
+wslBHbjpf	    wslGnJEnF  wslMDkHNB  wslbiDLnJ  wslhjmBML	wslnfNemB
+wslBIjPPE	    wslGneONb  wslMEobla  wslbkFPPb  wslhlIcmm	wslngdCMb
+wslBKCONF	    wslGoEFBH  wslMGfkBA  wslbmpkcG  wslhoOpfH	wslngmgdL
+wslBLndJC	    wslHGnnGH  wslMMABDC  wslboHgOi  wslhooPmF	wslnhAJII
+wslBMPPgO	    wslHIFgmF  wslMMbGGi  wslcAFFFf  wsliDloIN	wslnhlfAb
+wslBNFmKj	    wslHKLIjB  wslMbiHKf  wslcAaEig  wsliEIGhP	wslniClDE
+wslBNkmlJ	    wslHLJhhf  wslMdkHGk  wslcBHDhj  wsliIkFbP	wslnkCeFo
+wslBOhMka	    wslHMbdAa  wslMemngC  wslcCMdhj  wsliJNBcO	wslnmIaNA
+wslBacMHi	    wslHaGPCL  wslMgMCGk  wslcDOkLf  wsliKgMnP	wsloBMefo
+wslBbNcjh	    wslHaOGfE  wslMiELhc  wslcEGLAk  wsliLDffN	wsloBinJb
+wslBcdbob	    wslHciBcm  wslMmkGaG  wslcHEHHk  wsliLIHpF	wsloChMGh
+wslBhNIdO	    wslHehhmi  wslMnMogB  wslcMFiij  wsliLoFCg	wsloEbofj
+wslBiHoDE	    wslHgDMCE  wslNAGJkO  wslcMncOA  wsliOFGHa	wsloFNohj
+wslBiOfHi	    wslHgEkKb  wslNCmMDB  wslcaifmH  wslicDgJC	wsloJdIjJ
+wslBjoMnN	    wslHhlpeJ  wslNDLILo  wslcbkDNJ  wsliedjoG	wsloJndJM
+wslBkPNBI	    wslHijNpN  wslNEJHMO  wslccnhLC  wslifOKiP	wsloKnpfk
+wslBlNMPA	    wslIDONeG  wslNFAPPp  wslcfPkoo  wslifpaDD	wsloMllDE
+wslBlhBma	    wslIHNkMJ  wslNFelob  wslcjElla  wsligOMiB	wsloOcgfo
+wslBnLNBJ	    wslIICpEk  wslNGPJjj  wslckCIDL  wslijliGH	wslocDmgI
+wslBnfGLm	    wslIIHCko  wslNJgDAk  wsldAIKhj  wslimdCda	wslodnEEC
+wslCCiBIO	    wslIJNAMb  wslNKemjo  wsldCeKbP  wslinPfjM	wslokLhFf
+wslCCmlHH	    wslILDHMJ  wslNOlAkp  wsldDkegI  wsljAnEFL	wslolADCC
+wslCEkCjB	    wslILJgKM  wslNPeeHb  wsldFFbOi  wsljFdDnC	wslpCpPdh
+wslCHeBID	    wslILcAgN  wslNaegLO  wsldHgiMi  wsljIngEg	wslpIFhoo
+wslCHecmF	    wslILmFiB  wslNccgbn  wsldIOIeJ  wsljJEMBI	wslpIcCGB
+wslCNBOJF	    wslILoLhE  wslNgCkfp  wsldLgfFp  wsljLdAaG	wslpJJBGp
+wslCcMmcl	    wslIMANeC  wslNgcoEk  wsldMKGhM  wsljMOeIF	wslpKIafJ
+wslCeEOJI	    wslINJJDB  wslNiChFE  wsldNpMKl  wsljMbBoi	wslpKOEIn
+wslCeJDao	    wslINMOlF  wslNiepmg  wsldPNPfE  wsljMkLHO	wslpLGAec
+wslCekniO	    wslIPkgbc  wslNijKpm  wsldaNgoj  wsljafBmF	wslpNfBEI
+wslCfkGeG	    wslIdBGAa  wslNncdNn  wsldaaGMj  wsljalkmp	wslpahEam
+wslChhNbc	    wslIdbPfI  wslNoeNcn  wsldcDNbD  wsljbEpkj	wslpbhKnI
+wslCjLcgj	    wslIejbKG  wslNofIDf  wsldjdddL  wsljhiNjb	wslpcgJeN
+wslCkClBh	    wslIfAnBB  wslNpFAfH  wsldooINK  wsljiKENC	wslpdDHNb
+wslCnJHjj	    wslIgbFKf  wslOAjBFh  wsleBMnea  wsljiLibm	wslpeeFBA
+wslDDcIbP	    wslIkkGfc  wslOEfpAg  wsleDBfIB  wsljliMIh	wslpgaojp
+wslDGAdDE	    wslImLEIC  wslOFapcL  wsleJgpMG  wsljmdOPA	wslphlgni
+wslDIcHOP	    wslJAKIgc  wslOIdCeJ  wsleOImio  wslkAiOkO	wslpkIkMp
+wslDJHjiB	    wslJAhFkg  wslOJFNeh  wsleOoOan  wslkBKlJl	wslpkmojM
+wslDKOIio	    wslJAlEOi  wslOKociP  wsleeINik  wslkGObKh	wslpmhFpN
+wslDMCopP	    wslJAmEdc  wslOLLFAH  wslefPdDD  wslkGhgni	wslpofLgj
+wslDcfmLf	    wslJENEbA  wslOMjmBM  wsleggbcF  wslkJjgjg	wslppcBFk
+wslDeKFlO	    wslJGmNab  wslONJejH  wslehNaiO  wslkKmOcl
+[exit 0]
+$ ls -ld /bin /etc /home /dev /mnt
+lrwxrwxrwx  1 root root    7 Apr 22  2024 /bin -> usr/bin
+drwxr-xr-x 15 root root 3860 Nov 10 01:51 /dev
+drwxr-xr-x 95 root root 4096 Nov 10 01:58 /etc
+drwxr-xr-x  3 root root 4096 Jun 14  2025 /home
+drwxr-xr-x  5 root root 4096 Jun 14  2025 /mnt
+[exit 0]
+$ mkdir A bin
+[exit 0]
+$ ls -ld A bin
+drwxr-xr-x 2 ovo155 ovo155 4096 Nov 10 02:12 A
+drwxr-xr-x 2 ovo155 ovo155 4096 Nov 10 02:12 bin
+[exit 0]

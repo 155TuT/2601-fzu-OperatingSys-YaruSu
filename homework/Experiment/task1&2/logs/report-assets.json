@@ -1,0 +1,115 @@
+{
+  "template": "task-requirement/计算机操作系统实验要求.docx",
+  "template_pages": [
+    2,
+    3
+  ],
+  "report": "学号待填写_姓名待填写_OSEX12.docx",
+  "figures": [
+    {
+      "file": "00-root-summary.png",
+      "caption": "图1  当前用户主目录、系统位数、根目录清单节选与五个目录属性",
+      "sha256": "b642fb1f86899fdb2baadee550836649ed63ee4592fb28b669c458fd6701c535",
+      "pixels": [
+        1059,
+        504
+      ]
+    },
+    {
+      "file": "02-nano-c.png",
+      "caption": "图2  GNU nano中保存的完整C程序（41行，含输入检查与注释）",
+      "sha256": "285e44431c27138f90abd189ada7b27fec2df5b277d0f1abab9adcccfa54f4c1",
+      "pixels": [
+        1059,
+        1064
+      ]
+    },
+    {
+      "file": "04-build-archive-permissions.png",
+      "caption": "图3  严格编译、求和、复制、压缩、755权限及删除A后的再次运行",
+      "sha256": "e6d05fbad8fe02733126ffd89915387c56167c46f6c9e089e84cbeaf3e49f4ba",
+      "pixels": [
+        1059,
+        584
+      ]
+    },
+    {
+      "file": "05-extract-and-owner.png",
+      "caption": "图4  解压、源码比较、程序运行、所有者核对及块设备查看",
+      "sha256": "0a5b23a26b4096071e941094d45fbbcea62a336af9f4c8f310f050db8a9e2dc6",
+      "pixels": [
+        1059,
+        604
+      ]
+    },
+    {
+      "file": "12-graphical-tools.png",
+      "caption": "图5  文件管理器、浏览器、文字处理工具和图形软件包管理器",
+      "sha256": "3aaa1fde746a6a70dc386e8e092ce88c112533d6d97c2efcd3d1187daddd11c7",
+      "pixels": [
+        1600,
+        1200
+      ]
+    },
+    {
+      "file": "06-pipes-and-lists.png",
+      "caption": "图6  文件重定向、4月16日日期筛选、行数统计及合并验证",
+      "sha256": "b8f22af97ec19d6772deedeecbab6b654471372a2b0f1551fc57678b2066a7c5",
+      "pixels": [
+        1059,
+        704
+      ]
+    },
+    {
+      "file": "07-nano-shell.png",
+      "caption": "图7  nano中保存的sum.sh；完整可编辑源码见src/sum.sh",
+      "sha256": "c988a6d1858beeaa0376dc66797865c5eb8ed5adb07802329d2ecd7c7431bb52",
+      "pixels": [
+        1059,
+        1184
+      ]
+    },
+    {
+      "file": "08-shell-required-cases.png",
+      "caption": "图8  n=-1返回5并追加日志；n=10返回0并把55写入sum.r",
+      "sha256": "bcf3405ff3235af0e4c8b7c2bf5a4bb148b304d78fa6a1b07ed3023211b45834",
+      "pixels": [
+        1059,
+        524
+      ]
+    },
+    {
+      "file": "09-named-output.png",
+      "caption": "图9  输入10及custom result.txt，生成的自选结果文件为55",
+      "sha256": "accd6e966415b6b858a0258ddf972d2633bc15a259ee31ca264e45aa3a7b218e",
+      "pixels": [
+        1059,
+        364
+      ]
+    },
+    {
+      "file": "10-make-dependencies.png",
+      "caption": "图10  首次构建、重复make、make -q及源码变化时的重建计划",
+      "sha256": "fbf4b517f7c67abad137cfa56c1ba551672bb4a92f8111027f419ea1c5b41ff6",
+      "pixels": [
+        1059,
+        504
+      ]
+    },
+    {
+      "file": "11-verification.png",
+      "caption": "图11  自动验证的末段输出：All 30 checks passed.",
+      "sha256": "f53356f8084b62cd8f8a190ad98045ef854e764593bcdbdf8498629a229f4a9a",
+      "pixels": [
+        1059,
+        484
+      ]
+    }
+  ],
+  "list_line_counts": {
+    "list1.txt": 15,
+    "list2.txt": 0,
+    "list.txt": 15
+  },
+  "student_fields": "待填写"
+}
