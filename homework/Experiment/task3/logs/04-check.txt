@@ -1,0 +1,14 @@
+$ make check
+python3 scripts/verify.py
+PASS  interactive defaults
+PASS  FIFO and wrapping at capacity 3
+PASS  single slot and one pair
+PASS  maximum capacity and 64 children
+PASS  empty warehouse blocks a consumer
+PASS  full warehouse blocks a producer
+PASS  parallel warehouses use separate IPC objects
+PASS  invalid input and EOF
+PASS  Ctrl-C reaps children and releases IPC
+PASS  failed child releases blocked peers and IPC
+All 10 checks passed.
+$

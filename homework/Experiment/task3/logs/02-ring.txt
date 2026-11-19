@@ -1,0 +1,28 @@
+$ ./build/pc 3 7
+Warehouse capacity [1..1024]:
+3
+Initial stock [0..3]:
+1
+Initial: capacity=3 stock=1 in=1 out=0 pairs=3 seed=7
+IPC: shm=14 empty=39 full=40 mutex=41
+C 48550 started.
+  item=1 stock=0/3 in=1 out=1
+C 48550 got an item from 0.
+P 48551 started.
+  item=2 stock=1/3 in=2 out=1
+P 48551 put an item to 1.
+P 48552 started.
+  item=3 stock=2/3 in=0 out=1
+P 48552 put an item to 2.
+P 48553 started.
+  item=4 stock=3/3 in=1 out=1
+P 48553 put an item to 0.
+C 48554 started.
+  item=2 stock=2/3 in=1 out=2
+C 48554 got an item from 1.
+C 48555 started.
+  item=3 stock=1/3 in=1 out=0
+C 48555 got an item from 2.
+Final: produced=3 consumed=3 stock=1 in=1 out=0
+Semaphores: empty=2 full=1 mutex=1
+$
